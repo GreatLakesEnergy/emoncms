@@ -49,13 +49,13 @@
         // On windows or shared hosting you will likely need to specify a different data directory--
         // Make sure that emoncms has write permission's to the datadirectory folders
         'phpfiwa'=>array(
-            'datadir' => '/home/pi/data/phpfiwa/'
+            'datadir' => '/home/debian/data/phpfiwa/'
         ),
         'phpfina'=>array(
-            'datadir' => '/home/pi/data/phpfina/'
+            'datadir' => '/home/debian/data/phpfina/'
         ),
         'phptimeseries'=>array(
-            'datadir' => '/home/pi/data/phptimeseries/'
+            'datadir' => '/home/debian/data/phptimeseries/'
         )
     );
 
